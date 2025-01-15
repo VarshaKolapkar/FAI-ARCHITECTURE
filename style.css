@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    padding: 20px 40px 20px 100px;
+    
+}
+.navbar ul{ 
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-left: 35%;
+    column-gap: 30px;
+}
+.navbar ul a{
+    margin: 25px;
+    color:rgb(51, 51, 51);       
+    text-decoration: none;
+    font-size: 23px;
+    justify-content: right;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.navbar a:hover{
+    color: blue;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+.left_text{
+    margin-top: 4%;
+    padding: 80px 80px 100px 100px;
+    font-size: 80px;
+    line-height: 80px;
+}
+.button_text{
+    background-color: rgb(46, 43, 43);
+    color: aliceblue;
+    padding-left: 65px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 240px;
+    height: 85px;
+    justify-content: center;
+    margin-left: 6%;
+    font-size: 20px;
+    letter-spacing: 2px; 
+}
+.button_text:hover{
+    cursor: pointer;
+    background-color: rgb(131, 80, 178);
+}
+.button{
+    background-color: rgb(46, 43, 43);
+    color: aliceblue;
+    padding-left: 65px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 65px;
+    width: 340px;
+    height: 85px;
+    justify-content: center;
+    letter-spacing: 2px; 
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 80, 178);
+}
+.slider{
+    margin-left: 40%;
+    width: 860px;
+    height: 700px;
+    margin-top: -33%;
+    
+}
+.img2{
+    margin-left: 55%;
+    margin-top: -23%;
+}
+.second_block{
+    margin-top: 30px;
+    display: flex;
+    column-gap: 25px;
+}
+
+.bottom_btn{
+    margin-top: 50px;
+    margin-left: 1000px;
+    margin-bottom: 150px;
+}
+.footer{
+    background-color: rgb(51, 50, 50);
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 120px;
+    column-gap: 155px;
+    margin-top: 200px;
+    
+}
+
+.foot_list1{
+    list-style: none;  
+    line-height: 50px;  
+    font-size: 20px;  
+    letter-spacing: 3px;
+}
+.foot_list1 a{
+    text-decoration: none;
+    color: white;
+}
+.foot_list2{
+    list-style: none;
+      
+    font-size: 20px;  
+}
+.foot_list2 p{
+    font-size: 20px;  
+    letter-spacing: 3px;
+}
+.foot_list2 li{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 40px;
+    font-size: 18px;
+}
+.foot_list3{
+    font-size: 20px;  
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.copyright{
+    background-color: rgb(51, 50, 50);
+    color: white;
+    justify-items: center;   
+    height: 40px;
+    width: 100%;
+}
+.copyright p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 50%;
+    letter-spacing: 3px;
+    font-size: 15px;
+
+}
+
+.heading{
+    margin-left: 100px;
+    margin-top: 80px;    
+    width: 50px;
+    
+}
+.heading p{
+    letter-spacing: 10px;
+    font-size: 90px;
+    line-height: 85px;
+}
+
+.s_img1{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 30px;
+
+}
+.s_box1{
+    margin-top: 200px;
+    justify-content: center;
+    justify-items: left;
+}
+.s_heading{
+    letter-spacing: 3px;
+    width: 50px;
+    font-size: 3.5rem;
+}
+.s_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    margin-top: 50px;
+}
+.s_box2{
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 30px;
+    margin-top: 60px;
+    margin-right: 80px;
+}
+.box_text{
+    margin-top: 200px;
+    justify-content: center;
+    justify-items: left;
+    
+}
+.s_text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.s_foot{
+    margin-top: 250px;
+    width: 100%;
+    margin: 0%;
+    
+}
+.icon{
+    display: flex;
+    column-gap: 40px; 
+}
+.a_box1{
+    justify-items: left;
+
+}
+.short_head{
+    color: rgb(131, 80, 178);
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+
+}
+.a_heading{
+    margin-left: 100px;
+    letter-spacing: 10px;
+    font-size: 90px;
+    line-height: 85px;
+    width: 50px;   
+}
+.panel1{
+    display: flex;
+    column-gap: 500px;
+    margin-top: 20px;
+}
+.a_box2{
+    justify-items: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.a_box2 p{
+    width: 650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: .3rem;
+    line-height: 30px;
+}
+.photo_panel1{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+.photo_panel2{
+    margin-top: 100px;
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+.photu1:hover{
+    width: 410px;
+    height: 510px;
+    cursor: pointer;
+}
+.pa1{
+    margin-top: 30px;
+}
+.long_img{
+    width: 100%;
+    height: 450px; 
+    display: block;
+    object-fit: cover;
+}
+.lm1{
+    margin-top: 120px;
+}
+.p_panel1{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.hov:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.pub_head{
+    margin-bottom: 120px;
+    letter-spacing: 10px;
+    font-size: 90px;
+    line-height: 85px;
+    width: 50px;
+    margin-top: 40px;
+    color: rgb(51, 50, 50);
+}
+.pub{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.pub_panel1{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    column-gap: 150px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+}
+.date{
+    font-size: 1.1rem;
+    color: rgb(131, 80, 178);
+    letter-spacing: 0.2rem;
+
+}
+.p_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.pub_head1{
+    width: 380px;
+   color: rgb(51, 50, 50);
+   font-size: 3rem;
+   word-spacing: 0.8rem;
+   letter-spacing: 0.2rem;
+   line-height: 50px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+.line{
+    
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-items: center;
+    color: rgb(51, 50, 50);
+    height: 3.5px;
+    background-color: rgb(51, 50, 50);
+    opacity: 40%;
+}
